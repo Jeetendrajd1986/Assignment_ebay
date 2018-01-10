@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ebay Application" verbose="1" >
+ 
+ <test name="Functional Test" >
+  
+
+ 
+<classes>
+<class name="ebay_Package.Test_ebay_web_Page" > </class>
+     
+</classes>
+</test>
+</suite>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45382" started-at="2018-01-10T08:37:42Z" finished-at="2018-01-10T08:38:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45382" started-at="2018-01-10T08:37:42Z" finished-at="2018-01-10T08:38:27Z">
+      <class name="ebay_Package.Test_ebay_web_Page">
+        <test-method status="PASS" signature="Reportsetup()[pri:0, instance:ebay_Package.Test_ebay_web_Page@1c20538]" name="Reportsetup" is-config="true" duration-ms="311" started-at="2018-01-10T14:07:42Z" finished-at="2018-01-10T14:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportsetup -->
+        <test-method status="PASS" signature="Launch()[pri:0, instance:ebay_Package.Test_ebay_web_Page@1c20538]" name="Launch" is-config="true" duration-ms="13056" started-at="2018-01-10T14:07:42Z" finished-at="2018-01-10T14:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="addproductincart()[pri:1, instance:ebay_Package.Test_ebay_web_Page@1c20538]" name="addproductincart" duration-ms="31378" started-at="2018-01-10T14:07:55Z" description="Verify the ebay functionality" finished-at="2018-01-10T14:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproductincart -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ebay_Package.Test_ebay_web_Page@1c20538]" name="tearDown" is-config="true" duration-ms="304" started-at="2018-01-10T14:08:27Z" finished-at="2018-01-10T14:08:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addproductincart status=SUCCESS method=Test_ebay_web_Page.addproductincart()[pri:1, instance:ebay_Package.Test_ebay_web_Page@1c20538] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="extentreportsetupend()[pri:0, instance:ebay_Package.Test_ebay_web_Page@1c20538]" name="extentreportsetupend" is-config="true" duration-ms="320" started-at="2018-01-10T14:08:27Z" finished-at="2018-01-10T14:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreportsetupend -->
+      </class> <!-- ebay_Package.Test_ebay_web_Page -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
